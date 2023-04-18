@@ -1,0 +1,892 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>724</width>
+    <height>276</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_2">
+    <item>
+     <layout class="QVBoxLayout" name="verticalLayout">
+      <item>
+       <layout class="QGridLayout" name="gridLayout_3">
+        <item row="0" column="0">
+         <layout class="QHBoxLayout" name="first_round">
+          <item>
+           <layout class="QVBoxLayout" name="first_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="first_round_lable">
+              <property name="text">
+               <string>第一局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="first_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="first_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="first_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="first_round_ui">
+            <item>
+             <widget class="QLabel" name="first_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="first_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="first_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="first_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="2">
+         <layout class="QHBoxLayout" name="second_round">
+          <item>
+           <layout class="QVBoxLayout" name="second_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="second_round_lable">
+              <property name="text">
+               <string>第二局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="second_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="second_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="second_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="second_round_ui">
+            <item>
+             <widget class="QLabel" name="second_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="second_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="second_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="second_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="4">
+         <layout class="QHBoxLayout" name="third_round">
+          <item>
+           <layout class="QVBoxLayout" name="third_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="third_round_lable">
+              <property name="text">
+               <string>第三局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="third_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="third_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="third_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="third_round_ui">
+            <item>
+             <widget class="QLabel" name="third_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="third_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="third_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="third_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="6">
+         <layout class="QHBoxLayout" name="forth_round">
+          <item>
+           <layout class="QVBoxLayout" name="forth_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="forth_round_lable">
+              <property name="text">
+               <string>第四局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="forth_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="forth_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="forth_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="forth_round_ui">
+            <item>
+             <widget class="QLabel" name="forth_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="forth_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="forth_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="forth_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="8">
+         <layout class="QHBoxLayout" name="fifth_round">
+          <item>
+           <layout class="QVBoxLayout" name="fifth_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="fifth_round_lable">
+              <property name="text">
+               <string>第五局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="fifth_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="fifth_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="fifth_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="fifth_round_ui">
+            <item>
+             <widget class="QLabel" name="fifth_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="fifth_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="fifth_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="fifth_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="0">
+         <layout class="QHBoxLayout" name="sixth_round">
+          <item>
+           <layout class="QVBoxLayout" name="sixth_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="sixth_round_lable">
+              <property name="text">
+               <string>第六局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="sixth_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="sixth_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="sixth_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="sixth_round_ui">
+            <item>
+             <widget class="QLabel" name="sixth_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="sixth_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="sixth_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="sixth_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="2">
+         <layout class="QHBoxLayout" name="seventh_round">
+          <item>
+           <layout class="QVBoxLayout" name="seventh_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="seventh_round_lable">
+              <property name="text">
+               <string>第七局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="seventh_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="seventh_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="seventh_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="seventh_round_ui">
+            <item>
+             <widget class="QLabel" name="seventh_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="seventh_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="seventh_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="seventh_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="4">
+         <layout class="QHBoxLayout" name="eighth_round">
+          <item>
+           <layout class="QVBoxLayout" name="eighth_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="eighth_round_lable">
+              <property name="text">
+               <string>第八局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="eighth_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="eighth_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="eighth_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="eighth_round_ui">
+            <item>
+             <widget class="QLabel" name="eighth_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="eighth_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="eighth_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="eighth_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="2" column="6">
+         <layout class="QHBoxLayout" name="ninth_round">
+          <item>
+           <layout class="QVBoxLayout" name="ninth_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="ninth_round_lable">
+              <property name="text">
+               <string>第九局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="ninth_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="ninth_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="ninth_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="ninth_round_ui">
+            <item>
+             <widget class="QLabel" name="ninth_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="ninth_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="ninth_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="ninth_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="3">
+         <widget class="Line" name="line_7">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="5">
+         <widget class="Line" name="line_8">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="4">
+         <widget class="Line" name="line_3">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="6">
+         <widget class="Line" name="line_4">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="8">
+         <widget class="Line" name="line_5">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="8">
+         <layout class="QHBoxLayout" name="tenth_round">
+          <item>
+           <layout class="QVBoxLayout" name="tenth_round_lable_ui">
+            <item>
+             <widget class="QLabel" name="tenth_round_lable">
+              <property name="text">
+               <string>第十局</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="tenth_round_ball_1_lable">
+              <property name="text">
+               <string>第一球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="tenth_round_ball_2_lable">
+              <property name="text">
+               <string>第二球</string>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="tenth_round_score_amount_lable">
+              <property name="text">
+               <string>該局計分格加總</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+          <item>
+           <layout class="QVBoxLayout" name="tenth_round_ui">
+            <item>
+             <widget class="QLabel" name="tenth_round_lable_empty">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="tenth_round_ball_1">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="tenth_round_ball_2">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+            <item>
+             <widget class="QLabel" name="tenth_round_score_amount">
+              <property name="text">
+               <string/>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="1">
+         <widget class="Line" name="line_6">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2">
+         <widget class="Line" name="line_2">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="0">
+         <widget class="Line" name="line">
+          <property name="orientation">
+           <enum>Qt::Horizontal</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="0" column="7">
+         <widget class="Line" name="line_9">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="1">
+         <widget class="Line" name="line_10">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="3">
+         <widget class="Line" name="line_11">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="5">
+         <widget class="Line" name="line_12">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="7">
+         <widget class="Line" name="line_13">
+          <property name="orientation">
+           <enum>Qt::Vertical</enum>
+          </property>
+         </widget>
+        </item>
+       </layout>
+      </item>
+      <item>
+       <layout class="QVBoxLayout" name="verticalLayout_3">
+        <item>
+         <layout class="QHBoxLayout" name="horizontalLayout">
+          <item>
+           <widget class="QLabel" name="label">
+            <property name="text">
+             <string>請輸入擊倒瓶數:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit">
+            <property name="text">
+             <string>0</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="roll_ball_pushButton">
+            <property name="text">
+             <string>擲出保齡球</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QPushButton" name="random_roll_ball_pushButton">
+            <property name="text">
+             <string>隨機擲出</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>目前局數:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="current_play">
+            <property name="text">
+             <string>第1局第1球</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>125</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_2">
+            <property name="text">
+             <string>總分:</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLabel" name="final_point">
+            <property name="text">
+             <string>尚未結算</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <spacer name="horizontalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>125</width>
+              <height>20</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </item>
+     </layout>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
